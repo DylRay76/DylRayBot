@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Winter Le Goat - Akuna X GSun",
+        name: "Akuna La Open ?",
         // Activity type number (0 = Playing).
         type: 0,
       },
@@ -292,10 +292,10 @@ export const botConfig = {
   // =========================
   verification: {
     // Message shown when posting the verification panel.
-    defaultMessage: "Click the button below to verify yourself and gain access to the server!",
+    defaultMessage: "Cliquez sur le bouton ci-dessous pour vous vérifier et profitez de l'ambiance Akuna !",
 
     // Text on the verification button.
-    defaultButtonText: "Verify",
+    defaultButtonText: "Se Vérifier",
 
     // Automatic verification behavior.
     autoVerify: {
@@ -424,13 +424,13 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
-    cooldownActive: "Please wait {time} before using this command again.",
-    errorOccurred: "An error occurred while executing this command.",
+    noPermission: "Tu n'a pas la permission d'utiliser cette commande.",
+    cooldownActive: "S'il vous plait attendez {time} avant d'utiliser a nouveau cette commande.",
+    errorOccurred: "Une erreur c'est produite pendant que vous etait entrain d'executer cette commande.",
     missingPermissions:
-      "I am missing required permissions to perform this action.",
-    commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+      "Il me manque les autorisations requises pour effectuer cette action.",
+    commandDisabled: "Cette commande a été désactivée.",
+    maintenanceMode: "Le Bot de DylRay est en maintenance.",
   },
 
   // =========================
